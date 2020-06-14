@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+    background-image: url("/home/ryancflo/the_odin_project/etch_a_sketch/Resources/wp2450670.png");
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    margin: 0px;
+} 
+  
+#grid {
+    grid-area: 2/2/3/3;
+    border: black 1px solid;
+    height: 600px;
+    width: 600px;
+    display: grid;
+}
+
+.cell {
+  height: 100%;
+  width: 100%;
+  border: gray 0.1px dotted;
+  background-color: white;
+}
+
+ul {
+  position: fixed;
+  left: 5%;
+  top: 40%;
+  padding: 20px;
+  list-style: none;
+  width: 300px;
+}
+
+
+button {
+    background-color: #bf4c3d;
+    width: 280px;
+    height: 50px;
+    transition: all 0.2s;
+    font-family: childhoodFont;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+
+  
